@@ -29,7 +29,6 @@ for iter = 1:N_iter
     while length(idx) > length(gindex),
         gindex(end+1) = 0;
     end
-    size(gindex)
     
     ftpcc = [];% Fisher transformed Pearson's correlation coefficient
     for k = 1:NclassComb
